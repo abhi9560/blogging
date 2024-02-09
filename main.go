@@ -43,16 +43,16 @@ func main() {
 
 func initDB() {
     // Open database connection
-    var err error
-    db, err = sql.Open("mysql", "username:password@tcp(localhost:3306)/dbname")
+   
+    db, err := sql.Open("mysql", "username:password@tcp(localhost:3306)/dbname")
     if err != nil {
-        panic(err.Error())
+      log.Fatal(err)
     }
 
     // Check if the connection is successful
     err = db.Ping()
     if err != nil {
-        panic(err.Error())
+      log.Fatal(err)
     }
 
     fmt.Println("Connected to the database")
