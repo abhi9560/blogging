@@ -1,13 +1,13 @@
 # Simple Blogging Platform API
-This is a RESTful API for a simple blogging platform built using Go. It allows users to perform CRUD operations (Create, Read, Update, Delete) on blog posts.
+This is a RESTful API for a simple blogging platform built using Go. It allows users to perform CRUD operations (Create, Read, Update, Delete) on blog posts.  <br />
 
-Remember to replace "username:password@tcp(localhost:3306)/dbname" with your actual database connection details. Also, make sure to handle errors properly and add appropriate error messages in the responses.
+Remember to replace "username:password@tcp(localhost:3306)/dbname" with your actual database connection details. Also, make sure to handle errors properly and add appropriate error messages in the responses.  <br />
 
 # GET Request:
-Method: GET
-URL: http://localhost:8080/posts
-Description: Retrieve all blog posts.
-In Postman, simply select the request you created for retrieving all blog posts and click the "Send" button. Postman will send a GET request to http://localhost:8080/posts and display the response.
+Method: GET  <br />
+URL: http://localhost:8080/posts  <br />
+Description: Retrieve all blog posts.  <br />
+In Postman, simply select the request you created for retrieving all blog posts and click the "Send" button. Postman will send a GET request to http://localhost:8080/posts and display the response.  <br />
 
 # POST Request:
 Method: POST
